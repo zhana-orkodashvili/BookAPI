@@ -12,5 +12,3 @@ CREATE TABLE books (
    CONSTRAINT date_in_past CHECK (publication_date<getdate())
    
    )
-
-select * from books
